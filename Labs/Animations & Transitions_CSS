@@ -1,0 +1,85 @@
+#animation {
+  width: 100px;
+  height: 100px;
+  background: rgb(139, 207, 30);
+  position: relative;
+  animation: mymove 2s;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(0deg);
+  }
+  to {
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+  }
+}
+
+#para {
+  background-color: yellow;
+  border: 5px rgb(181, 225, 7) solid;
+  width: 500px;
+}
+#para:hover {
+  direction: rtl;
+  cursor: pointer;
+  margin-left: 600px;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+#image:hover {
+  filter: blur(5px);
+  cursor: pointer;
+}
+#image1:hover {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+#image2:hover {
+  cursor: pointer;
+  filter: opacity(0.5);
+}
+@media screen and (max-width: 300px) {
+  #media img {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 301px) and (max-width: 799px) {
+  #media img {
+    width: 42%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #media img {
+    width: 22%;
+  }
+}
+#shadow {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
