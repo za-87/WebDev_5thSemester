@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+
+            <h1 class="jumbotron-heading" style="padding-top: 120px" style="font-family: Arial, Helvetica, sans-serif;">
+                <b>Cloud Computing<b>
+            </h1>
+            <p class="lead text-muted">The availablity of computational services such as docker, kubernetes <br> and
+                load balancers is know as cloud computing!.Computational services such as docker <br> kubernetes and
+                load balancers is know as cloud computing</p>
+            <p>
+                <a href="#" class="btn btn-danger my-2" style="padding: 13px">Buy from US</a>
+                <a href="#" class="btn btn-success my-2" style="padding: 13px">Features</a>
+            </p>
+
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <img src="images/Using-Docker-Containersposting.png" alt="">
+
+
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Buy Dockers at lowest price!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                    </div>
+                                    <small class="text-muted">10 Minutes ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+
+                            <img src="images/Kuber.png" alt="">
+
+
+
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Buy Kubernetes at lowest price!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+
+                            <img src="images/LB.png" alt="">
+
+
+
+
+
+                            <div class="card-body">
+                                <p class="card-text">Buy Load balancers at lowest price!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <img src="images/Using-Docker-Containersposting.png" alt="">
+
+
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Buy Dockers at lowest price!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                    </div>
+                                    <small class="text-muted">10 Minutes ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+
+                            <img src="images/Kuber.png" alt="">
+
+
+
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Buy Kubernetes at lowest price!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+
+                            <img src="images/LB.png" alt="">
+
+
+
+
+
+                            <div class="card-body">
+                                <p class="card-text">Buy Load balancers at lowest price!.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+    </section>
